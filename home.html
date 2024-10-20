@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Иван Иванов</title>
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="nav-container">
+        <a href="#" class="logo">
+          <img src="static/img/logo.svg" alt="Логотип">
+        </a>  
+        <div class="dropdown">
+          <nav class="dropdown-content">
+            <ul>
+              <li><a href="#about">О себе</a></li>
+              <li><a href="#skills">Навыки</a></li>
+              <li><a href="#education">Образование</a></li>
+              <li><a href="#contact">Контакты</a></li>
+            </ul>
+          </nav>
+          <div class="menu-m_container">
+          <img src="static/img/menu-m.svg" class="dropbtn" id="menu-img">
+          </div>
+        </div>
+      </div>
+      <a href="#contact" class="nav-btn">Связаться со мной</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero">
+      <div class="container">
+        <h1>Иван Иванов, 21 год. Front-end разработчик из Сыктывкара.</h1>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div>
+          <p>О себе</p>
+        </div>
+        <div>
+          <p>Меня зовут Иван, мне 21 год. Я учусь в университете и обожаю кодить. Я работаю над проектами, чтобы сделать вашу жизнь проще, и люблю решать проблемы, которые возникают у людей. Пишу чистый код, умею рефакторить чужой. Оптимизирую все и вся, иногда просирая сроки из-за этого.</p>
+        </div>
+        <div>
+          <p>Начиная со второго курса стажируюсь в Utair         на позиции front-end разработчика. Помогаю делать платформу для работы с обратной связью от пассажиров. </p>
+          <p>В свободное время играю в хоккей и дартс. Люблю смотреть фильмы Нолана, Финчера и Миядзаки. Апал глобала в контре и титана в доте, добился успеха крч.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="container">
+        <p>Навыки</p>
+        <div class="skills-list">
+          <p>Технические</p>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Vue.js, React, Angular</li>
+            <li>jQuery</li>
+            <li>Git</li>
+            <li>gulp</li>
+            <li>sass</li>
+          </ul>
+          <p>Софтовые</p>
+          <ul>
+            <li>Ведение проектов</li>
+            <li>Написание ТЗ</li>
+            <li>Рефакторинг чужого кода</li>
+            <li>Английский B2</li>
+            <li>Китайский Вацаонима</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="education">
+      <div class="container">
+        <p>Образование</p>
+        <div class="education-block">
+          <div>
+            <p class="caption">Учебное заведение</p>
+            <p class="signification">СГУ им. Питирима Сорокина</p>
+          </div>
+          <div>
+            <p class="caption">Направление</p>
+            <p class="signification">Прикладная информатика</p>
+          </div>
+          <div>
+            <p class="caption">Год окончания</p>
+            <p class="signification">2026</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <p>Остались вопросы?</p>
+        <form id="feedbackForm">
+          <div class="contact-inf-container">
+            <div class="text-field text-field_floating-2">  
+              <input class="text-field__input" type="text" id="name1" name="name" placeholder="Имя">
+              <label class="text-field__label" for="name" id="label1">Имя</label>
+              <p id="response1" class="mistake"></p>
+            </div>
+            <div class="text-field text-field_floating-2">
+              <input class="text-field__input" type="text" id="name2" name="name" placeholder="Имя">
+              <label class="text-field__label" for="name" id="label2">Имя</label>
+              <p id="response2" class="mistake"></p>
+            </div>
+            <div class="text-field text-field_floating-2">
+              <input class="text-field__input" type="text" id="telegram" name="telegram" placeholder="Телеграм">
+              <label class="text-field__label tg-aligment" for="telegram">Телеграм</label>
+            </div>
+          </div>
+          <div class="text-field text-field_floating-2">
+            <textarea id="message" name="message" placeholder="" class="message"></textarea>
+            <label for="message" class="text-field__label-message">Сообщение</label>
+          </div>
+          <button type="submit" class="form-btn">Связаться со мной</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <ul class="social-links">
+          <li><a href="#">Telegram</a></li>
+          <li><a href="#">Вконтакте</a></li>
+          <li><a href="#">Github</a></li>
+          <li><a href="#">Discord</a></li>
+          <li><a href="#">Email</a></li>
+        </ul>
+      </div>
+    </footer>
+  </main>
+  <script src="static/scripts/script.js"></script>
+</body>
+</html>
