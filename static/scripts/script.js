@@ -29,9 +29,7 @@ document.getElementById("feedbackForm").addEventListener("submit", function(even
         response2.innerText = "ошибка аларм аларм";
         label2.classList.add("mistake-color");
         document.getElementById("name2").classList.add("mistake-border-color")
-    } else {
-        this.reset();
-    }
+    } 
 });
 
 const dropbtn = document.querySelector('.dropbtn');
@@ -76,9 +74,4 @@ dropbtn.addEventListener('click', function() {
         flag = false
         changeImage2();
     }
-    // if (dropdownContent.style.display === 'block') {
-    //     changeImage1();
-    // } else {
-    //     changeImage2();
-    // }
 });

@@ -4,8 +4,15 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Cerbera';
+    src: url('../fonts/Gerbera.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cerbera', sans-serif;
     background-color: #1B1C21;
     color: #FFFFF8;
     font-size: 16px;
@@ -398,6 +405,10 @@ textarea {
     color: #FF312E;
 }
 
+.mistake-border-color:hover {
+    border: 1.5px solid #FF312E;
+}
+
 .dropdown {
     display: flex;
 }
@@ -411,7 +422,8 @@ textarea {
     height: 0px;
 }
 
-@media (max-width: 412px) {
+/* Адаптируем страницу под ширину экрана в 412px, как требуется в макете */
+@media (max-width: 412px) { 
     h1 {
         font-size: 40px;
     }
@@ -419,7 +431,7 @@ textarea {
     .about .container {
         display: block;
     }
-    
+       
     .skills .container {
         display: block;
     }
@@ -482,11 +494,11 @@ textarea {
     }
 
     .nav-container .dropdown {
-        display: block; /* Показывать выпадающее меню */
+        display: block; 
     }
 
     .nav-container .dropdown-content {
-        display: none; /* Скрыть выпадающее меню */
+        display: none;
         position: absolute;
         left: -5.5%;
         bottom: -242%;
