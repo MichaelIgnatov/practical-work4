@@ -140,6 +140,10 @@ p {
     grid-template-columns: 1fr 2fr;
 }
 
+.education p {
+    margin-bottom: 0px;
+}
+
 .caption {
     color: rgba(255, 255, 248, 0.5);
     margin: 0px;
@@ -472,10 +476,14 @@ textarea {
         margin-right: 60px;
     }
 
+    .education p {
+        margin-bottom: 20px;
+    }
+
     .menu-m_container {
         position: absolute;
         left: 80%;
-        top: 3.1%;
+        top: 2.5%;
         bottom: 10px;
         width: 48px;
         height: 48px;
@@ -501,7 +509,7 @@ textarea {
         display: none;
         position: absolute;
         left: -5.5%;
-        bottom: -242%;
+        bottom: -234%;
         background-color: #1B1C21;
         z-index: 1;
         width: 100%;
