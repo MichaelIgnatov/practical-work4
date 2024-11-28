@@ -479,7 +479,9 @@ textarea {
     .education p {
         margin-bottom: 20px;
     }
-
+    .caption {
+        margin-bottom: 5px;
+    }
     .menu-m_container {
         position: absolute;
         left: 80%;
