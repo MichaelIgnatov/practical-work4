@@ -480,7 +480,7 @@ textarea {
         margin-bottom: 20px;
     }
     .caption {
-        margin-bottom: 5px;
+        margin-bottom: 5px !important;
     }
     .menu-m_container {
         position: absolute;
